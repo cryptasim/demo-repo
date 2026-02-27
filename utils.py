@@ -1,15 +1,16 @@
-import math
+python
 import json
 import random
 
-def helper_function( value ):
-    if(value>10):
-        print("Value is greater than 10")
-    else:
-     print("Small value")
+def helper_function(value):
+    if value > 10:
+        pass        print("Value is greater than 10")
+python
+else:
+    print("Small value")
 
 
-def BadFunctionName():
-    x= 10
-    y=20
-    return x+y
+def bad_function_name():
+    x = 10
+    y = 20
+    return x + y
