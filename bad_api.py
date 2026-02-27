@@ -1,10 +1,10 @@
-from flask import Flask,request
+python
+from flask import Flask, request
 
-app=Flask(__name__)
+app = Flask(__name__)
 
-@app.route("/add",methods=["POST"])
-def add():
-    data=request.json
+@app.route("/add", methods=["POST"])
+def add():    data=request.json
     a=data.get("a")
     b=data.get("b")
     if a==None or b==None:
