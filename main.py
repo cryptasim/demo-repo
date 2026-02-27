@@ -1,14 +1,14 @@
-import os,sys
+python
+import sys
 from utils import helper_function
 import math, hashlib
 
-python
-def greet(name):
-    print("Hello, " + name)
+def greet(name):    print("Hello, " + name)
 
 
 def calculate_sum(a, b):
-    return a + b
+python
+return a + b
 
 
 if __name__ == "__main__":
